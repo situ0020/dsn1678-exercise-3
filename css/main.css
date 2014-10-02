@@ -93,6 +93,10 @@ body {
   border-radius: 6px;
 }
 
+.sales__details[data-state="active"]{
+	opacity: 1;
+}
+
 .sales__details::before {
   top: -10px;
   content: " ";
@@ -105,10 +109,6 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #000;
-}
-
-.sales__details[data-state="active"] {
-	opacity: 1;
 }
 
 .chart-list {
