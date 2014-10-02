@@ -1,16 +1,16 @@
-var theButton = $('.the-button');
-var header = $('.heading');
+var sales = $('.sales');
+var sales__details = $('.sale__details');
 
 var buttonClickHandler = function () {
-	var currentState = header.attr('data-state');
+	var currentState = sales__details.attr('data-state');
 	
 	if (currentState =='active') {
-	header.attr('data-state', 'inactive');
+	sales__details.attr('data-state', 'inactive');
 	} else {
-	header.attr('data-state', 'active');
+	sales__details.attr('data-state', 'active');
 	}
 };
 
-theButton.on('click', buttonClickHandler);
+sales.on('click', buttonClickHandler);
 
 
