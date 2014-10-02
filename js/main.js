@@ -1,5 +1,5 @@
 var sales__1 = $('.sales__1');
-var sales__details__1 = $('.sale__details__1');
+var sales__details__1 = $('.sales__details__1');
 
 var buttonClickHandler = function () {
 	var currentState = sales__details__1.attr('data-state');
@@ -14,7 +14,7 @@ var buttonClickHandler = function () {
 sales__1.on('click', buttonClickHandler);
 
 var sales__2 = $('.sales__2');
-var sales__details__2 = $('.sale__details__2');
+var sales__details__2 = $('.sales__details__2');
 
 var buttonClickHandler = function () {
 	var currentState = sales__details__2.attr('data-state');
