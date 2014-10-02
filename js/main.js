@@ -27,4 +27,3 @@ var buttonClickHandler = function () {
 };
 
 sales__2.on('click', buttonClickHandler);
-
