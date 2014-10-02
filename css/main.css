@@ -88,13 +88,17 @@ body {
   position: absolute;
   width: 90%;
   opacity: 0;
-
   background-color: #000;
   border-radius: 6px;
+  top: 16em;
+  
+  transition:
+  	all 350ms linear;
 }
 
 .sales__details[data-state="active"]{
 	opacity: 1;
+	top: 14em;
 }
 
 .sales__details::before {
